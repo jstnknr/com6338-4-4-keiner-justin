@@ -13,7 +13,7 @@ var words = [
 ]
 
 var previousWord = document.getElementById("previous-word")
-previousWord.innerHTML = "This is not listed anywhere in our lectures. I promise I am trying and spending way to much time watching the lecture and rereading material."
+previousWord.innerHTML = "Im trying. i really am"
 var incorrectLetters = document.getElementById("incorrect-letters")
 incorrectLetters = []
 incorrectLetters.innerHTML = incorrectLetters
@@ -32,6 +32,23 @@ console.log(word)
 
 
 wordToGuess.innerHTML = word
+ 
+
+document.onkeyup = function(e) {
+  console.log(e.key)
+  var key = e.key.toLowerCase
+}
+
+if (key = word.indexOf("t")) { 
+  console.log("its in there")
+}
+  
+ // if (word.indexOf(key) == -1) return
+
+  //if (key === indexOf(word)) {
+
+  
+
 //var underscore = word.length 
 //wordToGuess.innerHTML = underscore.replace(
   
